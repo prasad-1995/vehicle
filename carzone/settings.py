@@ -161,4 +161,4 @@ EMAIL_HOST_USER = 'prasad.kane1995@gmail.com'
 EMAIL_HOST_PASSWORD = 'bsxcolkqtshozvrp'
 EMAIL_USE_TLS = True
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

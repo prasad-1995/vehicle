@@ -25,7 +25,7 @@ SECRET_KEY = 'p-g*-#5$fu=i-$_n_nwif!o4-f6)o(e6@llr2j7299ysk=ae(4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pure-oasis-78783.herokuapp.com', 'demo_vehicle.hostingduty.com', 'www.demo_vehicle.hostingduty.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 

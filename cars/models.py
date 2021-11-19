@@ -88,7 +88,7 @@ class Car(models.Model):
         ('6', '6'),
     )
 
-    car_title = models.CharField(max_length=255)
+    tiitle = models.CharField(max_length=255)
     state = models.CharField(choices=state_choice, max_length=1000)
     city = models.CharField(max_length=1000)
     color = models.CharField(max_length=1000)
@@ -119,3 +119,6 @@ class Car(models.Model):
 
     def __str__(self):
         return self.car_title
+
+from .models import org
+a = org.objects.get(name).filter(dep="it",doj >= 2021)
